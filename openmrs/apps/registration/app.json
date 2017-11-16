@@ -21,14 +21,20 @@
                 "additionalPatientInformation": {
                     "title": "Additional Patient Information",
                     "attributes": [
-                        "distanceFromCenter",
-                        "isUrban",
-                        "cluster",
-                        "RationCard",
-                        "familyIncome",
-                        "debt",
-                        "cluster"
-                    ]
+                        "Nationality",
+                        "languageKnown"
+                    ],
+                    "order": 0
+                },
+                "emergencyContact": {
+                    "title": "Emergency Contact Details",
+                    "translationKey": "Emergency Contact Details",
+                    "attributes": [
+                        "emergencyContactName",
+                        "relationshipToPatient",
+                        "addressofEmergencyContact"
+                    ],
+                    "order": 1
                 },
                 "hidden": {
                     "attributes": [
@@ -41,8 +47,7 @@
                 }
             },
             "addressHierarchy": {
-                "showAddressFieldsTopDown": false,
-                "strictAutocompleteFromLevel": "stateProvince"
+                "showAddressFieldsTopDown": false
             },
             "relationshipTypeMap": {
                 "Doctor":"provider",
@@ -50,14 +55,13 @@
             },
 
             "autoCompleteFields":["familyName", "caste"],
-            "defaultIdentifierPrefix": "GAN",
+            "defaultIdentifierPrefix": "AFG",
             "defaultVisitType": "OPD",
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
             "showMiddleName": true,
             "showLastName": true,
             "isLastNameMandatory": true,
             "showBirthTime": true,
-            "showCasteSameAsLastNameCheckbox": false,
             "printOptions": [
                 {
                     "translationKey": "REGISTRATION_PRINT_REG_CARD_LOCAL_KEY",
@@ -99,18 +103,7 @@
                 "givenName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
                 "middleName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
                 "address1" : {"pattern" : "[a-zA-Z0-9]{3}", "errorMessage" : "Should contain 3 characters"}
-            },
-            "patientSearch": {
-                "address": {
-                    "label": "Rural Ward",
-                    "placeholder": "Enter ward",
-                    "field": "address2"
-                },
-                "customAttributes": {
-                    "label": "रुग्णाचे नाव",
-                    "placeholder": "रुग्णाचे नाव",
-                    "fields": ["givenNameLocal", "middleNameLocal", "familyNameLocal"]
-                }
             }
+
         }
 }

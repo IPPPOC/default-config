@@ -35,7 +35,6 @@
                 { "locale" : "pt", "css": "offline-language-portuguese-brazil"}
             ]
         },
-    	"diagnosisStatus": "Inactive",
             "program": {
                 "patientInformation": {
                     "ageLimit": 100
@@ -126,6 +125,12 @@
             },
             "Accepted Family Planning methods": {
                 "multiSelect": true
+            },
+            "E, Site":{
+                "autocomplete":true
+            },
+            "E, Physical findings":{
+                "allowAddMore":true
             },
             "defaults": {
                 "Number of living children": 1,
