@@ -101,8 +101,7 @@
                 "landHolding" : {"pattern" : "[0-9]{0,3}", "errorMessage" : "Should be between 1 to 999 acres"},
                 "familyName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
                 "givenName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
-                "middleName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
-                "address1" : {"pattern" : "[a-zA-Z0-9]{3}", "errorMessage" : "Should contain 3 characters"}
+                "middleName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"}
             }
 
         }
