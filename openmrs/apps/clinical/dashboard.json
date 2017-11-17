@@ -137,13 +137,13 @@
             }
         }
     },
-    "patientSummary":{
-        "translationKey":"DASHBOARD_TAB_PATIENT_SUMMARY_KEY",
+    "referralDashBoard":{
+        "translationKey":"DASHBOARD_TITLE_REFERRAL_TAB",
         "maxRecentlyViewedPatients":10,
         "sections":{  
             "Bacteriology Concept Set":{  
                 "displayType":"Full-Page",
-                "translationKey":"DASHBOARD_TITLE_BACTERIOLOGY_RESULTS_KEY",
+                "translationKey":"DASHBOARD_TITLE_REFERRAL_DISPLAY_CONTROL",
                 "type":"obsToObsFlowSheet",
                 "dashboardConfig":{  
                     "numberOfVisits":1,
@@ -156,65 +156,6 @@
                 "expandedViewConfig":{  
                     "templateName":"BACTERIOLOGY CONCEPT SET",
                     "groupByConcept":"Specimen Collection Date"
-                }
-            },
-            "HistoryAndExamination":{  
-                "type":"historyAndExamination",
-                "isObservation":true,
-                "displayType":"Full-Page",
-                "dashboardConfig":{  
-                    "showGroupDateTime":false,
-                    "conceptNames":[  
-                        "Chief Complaint Data",
-                        "Examination Notes",
-                        "Smoking History",
-                        "Clief COmplaint Notes",
-                        "Blood Pressure"
-                    ]
-                },
-                "displayOrder":6,
-                "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY"
-            },
-            "drugOther":{  
-                "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
-                "type":"drugOrderDetails",
-                "displayType":"Full-Page",
-                "showDetailsButton":true,
-                "displayOrder":24,
-                "dashboardConfig":{  
-                    "showOnlyActive":true,
-                    "drugConceptSet":"All Other Drugs"
-                }
-            },
-            "malaria":{  
-                "title":"Malaria",
-                "type":"obsToObsFlowSheet",
-                "displayType":"Full-Page",
-                "displayOrder":26,
-                "dashboardConfig":{  
-                    "groupByConcept":"Malaria, Treatment Start Date",
-                    "templateName":"Malaria",
-                    "conceptNames":[  
-                        "Malaria, Parents Name",
-                        "Malaria, drug regimen",
-                        "Malaria, Malaria Type",
-                        "Malaria, Source"
-                    ]
-                }
-            },
-            "Chronic Treatment Chart":{  
-                "displayType":"Full-Page",
-                "title":"Chronic Treatment Chart",
-                "type":"chronicTreatmentChart",
-                "dashboardConfig":{  
-                    "drugs":[  
-
-                    ]
-                },
-                "expandedViewConfig":{  
-                    "drugs":[  
-
-                    ]
                 }
             }
         }
