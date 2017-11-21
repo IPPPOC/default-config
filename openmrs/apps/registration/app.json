@@ -103,7 +103,13 @@
                 "familyName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
                 "givenName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
                 "middleName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"}
+            },
+            "patientSearch": {
+                "address": {
+                    "label": "District",
+                    "placeholder": "Enter District",
+                    "field": "address1"
+                }
             }
-
         }
 }
