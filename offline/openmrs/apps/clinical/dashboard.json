@@ -3,6 +3,11 @@
         "translationKey":"DASHBOARD_TAB_GENERAL_KEY",
         "displayByDefault":true,
         "maxRecentlyViewedPatients":10,
+        "printing": {
+            "title": "Patient Information",
+            "header": "PEARLii Program",
+            "logo": "../images/ICRC_logo_Red_Cross.png"
+        },
         "sections":{  
             "patientInformation":{  
                 "translationKey":"DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
@@ -82,6 +87,11 @@
     },
     "patientSummary":{
         "translationKey":"DASHBOARD_TAB_PATIENT_SUMMARY_KEY",
+        "printing": {
+            "title": "Patient Summary",
+            "header": "PEARLii Program",
+            "logo": "../images/ICRC_logo_Red_Cross.png"
+        },
         "maxRecentlyViewedPatients":10,
         "sections":{  
             "drugOther":{
