@@ -24,5 +24,6 @@
   "REGISTRATION_PRINT_WITH_BARCODE": "Bar<u>c</u>ode Print",
   "IMPRISONMENT_DETAILS_LOCALE_KEY":"Imprisonment Details",
   "OBS_BOOLEAN_YES_KEY":"Yes",
-  "OBS_BOOLEAN_NO_KEY":"No"
+  "OBS_BOOLEAN_NO_KEY":"No",
+  "ANONYMISE_PATIENT_INFO": "Anonymize patient record"
 }

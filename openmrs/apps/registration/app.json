@@ -26,6 +26,14 @@
                     ],
                     "order": 0
                 },
+              "anonymisePatient": {
+                "title": "Additional Patient Information",
+                "translationKey": "ANONYMISE_PATIENT_INFO",
+                "attributes": [
+                  "Consent for anonymization"
+                ],
+                "order": 0
+              },
                 "emergencyContact": {
                     "title": "Emergency Contact Details",
                     "translationKey": "Emergency Contact Details",
