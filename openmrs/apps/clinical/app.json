@@ -35,35 +35,41 @@
                 { "locale" : "pt", "css": "offline-language-portuguese-brazil"}
             ]
         },
-            "program": {
-                "patientInformation": {
-                    "ageLimit": 100
-                },
-                "ID_Number": {
-                    "required" : true
-                },
-                "Co-morbidites": {
-                    "excludeFrom": ["HIV Program"]
-                },
-                "Doctor": {
-                    "excludeFrom": ["TB Program"]
-                }
+        "program": {
+            "patientInformation": {
+                "ageLimit": 100
             },
-            "patientContext": {
-        		"programAttributes": [
-            		"Id_Number",
-            		"Doctor",
-            		"Stage"
-        		],
-        		"personAttributes": [
-            		"class",
-            		"caste"
-        		],
-        		"additionalPatientIdentifiers": [
-           			"National ID"
-       		],
-        		"preferredIdentifier": "Id_Number"
-    	},
+            "ID_Number": {
+                "required" : true
+            },
+            "Co-morbidites": {
+                "excludeFrom": ["HCD Program","PRP Program"]
+            },
+            "Doctor": {
+                "excludeFrom": ["HCD Program","PRP Program"]
+            },
+            "Date" : {
+                "excludeFrom": ["HCD Program","PRP Program"]
+            },
+            "Stage" : {
+                "excludeFrom": ["HCD Program","PRP Program"]
+            }
+        },
+        "patientContext": {
+            "programAttributes": [
+                "Id_Number",
+                "Doctor",
+                "Stage"
+            ],
+            "personAttributes": [
+                "class",
+                "caste"
+            ],
+            "additionalPatientIdentifiers": [
+                "National ID"
+            ],
+            "preferredIdentifier": "Id_Number"
+        },
         "obsIgnoreList": [
             "REGISTRATION FEES",
             "COMMENTS",
@@ -131,9 +137,6 @@
             },
             "E, Physical findings":{
                 "allowAddMore":true
-            },
-            "E, Mental State" :{
-                "multiSelect": true
             },
             "defaults": {
                 "Number of living children": 1,
