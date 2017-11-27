@@ -181,9 +181,13 @@
             "progressMonitoring": {
                 "type":"observationGraph",
                 "title":"Progress monitoring",
+                "displayType":"Full-Page",
                 "config":{
                     "yAxisConcepts":[
-                        "PHC, Body Structure Subtotal"
+                        "PHC, Body Structure Subtotal",
+                        "PHC, Daily Life Subtotal",
+                        "PHC, Checkup Test Subtotal",
+                        "PHC, Grand score"
                     ],
                     "xAxisConcept":"observationDateTime",
                     "numberOfVisits":10
