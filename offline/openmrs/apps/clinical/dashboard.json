@@ -24,6 +24,35 @@
                     "countyDistrict"
                 ]
             },
+          "referralform": {
+            "translationKey": "Referral Form",
+            "isObservation": true,
+            "displayType": "Full-Page",
+            "displayOrder": 0,
+            "dashboardConfig": {
+              "conceptNames": [
+                "RF, Referred Center",
+                "RF, Provider",
+                "RF, Reason for Referral",
+                "RF, Additional Instructions"
+              ],
+              "showGroupDateTime": true
+            }
+          },
+          "socioEconomicForm": {
+            "translationKey": "SocioEconomic Evaluation",
+            "isObservation": true,
+            "displayOrder": 0,
+            "dashboardConfig": {
+              "conceptNames": [
+                "Family and community information",
+                "Strength & skills",
+                "Assets",
+                "General difficulties/ problems"
+              ],
+              "showGroupDateTime": true
+            }
+          },
             "diagnosis":{  
                 "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
                 "type":"diagnosis",
@@ -31,47 +60,6 @@
                 "showOrder":true,
                 "showDetailsButton":true,
                 "displayOrder":1
-            },
-            "treatments":{  
-                "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
-                "type":"treatment",
-                "displayOrder":4,
-                "dashboardConfig":{  
-                    "showFlowSheet":true,
-                    "showListView":true,
-                    "showRoute":true,
-                    "showDrugForm":true,
-                    "numberOfVisits":5,
-                    "showOtherActive":true,
-                    "showDetailsButton":true
-                },
-                "expandedViewConfig":{  
-                    "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
-                    "showFlowSheet":true,
-                    "showListView":true,
-                    "showRoute":true,
-                    "showDrugForm":true,
-                    "numberOfVisits":10,
-                    "showOtherActive":true,
-                    "showDetailsButton":true
-                }
-            },
-            "labResults":{  
-                "translationKey":"DASHBOARD_TITLE_LAB_RESULTS_KEY",
-                "type":"labOrders",
-                "displayOrder":10,
-                "dashboardConfig":{  
-                    "title":null,
-                    "numberOfVisits":1,
-                    "showChart":false,
-                    "showTable":true,
-                    "showDetailsButton":false,
-                    "initialAccessionCount":0,
-                    "latestAccessionCount":1
-                },
-                "expandedViewConfig":{  
-                    "numberOfVisits":10
-                }
             },
             "visits":{
                 "translationKey":"DASHBOARD_TITLE_VISITS_KEY",

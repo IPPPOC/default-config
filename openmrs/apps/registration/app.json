@@ -46,7 +46,8 @@
                 },
                 "hidden": {
                     "attributes": [
-                        "primaryContact"
+                        "primaryContact",
+                        "addressCode"
                     ]
                 },
                 "defaults":  {
@@ -55,7 +56,7 @@
                 }
             },
             "addressHierarchy": {
-                "showAddressFieldsTopDown": false,
+                "showAddressFieldsTopDown": true,
                 "strictAutocompleteFromLevel": "address1"
             },
             "relationshipTypeMap": {
