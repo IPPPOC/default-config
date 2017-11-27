@@ -78,7 +78,8 @@
                     "pivotTable": {
 
                     }
-                }
+                },
+                "hideEmptyDisplayControl": true
             },
             "pastHistory": {
                 "translationKey": "Past History",
@@ -98,7 +99,64 @@
                     "pivotTable": {
 
                     }
-                }
+                },
+                "hideEmptyDisplayControl": true
+            },
+            "Physiotherapyform": {
+                "translationKey": "Physiotherapy form",
+                "isObservation": true,
+                "displayOrder":5,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "PHC, Amputation",
+                        "PHC, Body Structure and Function",
+                        "PHC, Daily Life Activity",
+                        "PHC, Check Up Test",
+                        "PHC, Comment",
+                        "PHC, Grand score"
+                    ],
+                    "showGroupDateTime": true
+                } ,
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "PHC, Amputation",
+                        "PHC, Body Structure and Function",
+                        "PHC, Daily Life Activity",
+                        "PHC, Check Up Test",
+                        "PHC, Comment",
+                        "PHC, Grand score"
+                    ],
+                    "showDetailsButton": true,
+                    "pivotTable": {
+
+                    }
+                },
+                "hideEmptyDisplayControl": true
+            },
+            "PandOAssessment": {
+                "translationKey": "P and O Assessment",
+                "isObservation": true,
+                "displayOrder":5,
+                "dashboardConfig": {
+                    "conceptNames": [
+                        "PO, Amputation",
+                        "PO, Measurement",
+                        "PO, Prosthetics characteristics"
+                    ],
+                    "showGroupDateTime": true
+                } ,
+                "expandedViewConfig": {
+                    "conceptNames": [
+                        "PO, Amputation",
+                        "PO, Measurement",
+                        "PO, Prosthetics characteristics"
+                    ],
+                    "showDetailsButton": true,
+                    "pivotTable": {
+
+                    }
+                },
+                "hideEmptyDisplayControl": true
             },
             "complaints": {
                 "translationKey": "Complaints",
@@ -118,7 +176,8 @@
                     "pivotTable": {
 
                     }
-                }
+                },
+                "hideEmptyDisplayControl": true
             },
             "examinations": {
                 "translationKey": "Examinations",
@@ -137,8 +196,21 @@
                     "showDetailsButton": true,
                     "pivotTable": {
 
-                    }
+                    },
+                    "hideEmptyDisplayControl": true
                 }
+            },
+            "validationForms": {
+                "type": "forms",
+                "displayOrder": 8,
+                "dashboardConfig": {
+                    "title": null,
+                    "maximumNoOfVisits": 1
+                },
+                "formGroup": [
+                    "Imprisonment Details"
+                ],
+                "translationKey": "DASHBOARD_TITLE_EDIT"
             }
         }
     },
@@ -177,7 +249,18 @@
 
                     }
                 }
-            },
+            }
+        }
+    },
+    "Progress Monitoring":{
+        "translationKey":"DASHBOARD_TITLE_PROGRESS_MONITORING_TAB",
+        "maxRecentlyViewedPatients":10,
+        "printing": {
+            "title": "Progress Monitoring",
+            "header": "PEARLii Program",
+            "logo": "../images/ICRC_logo_Red_Cross.png"
+        },
+        "sections":{
             "progressMonitoring": {
                 "type":"observationGraph",
                 "title":"Progress monitoring",
@@ -196,7 +279,6 @@
             }
         }
     },
-
     "patientSummary": {
         "translationKey": "DASHBOARD_TAB_PATIENT_SUMMARY_KEY",
         "maxRecentlyViewedPatients": 10,
