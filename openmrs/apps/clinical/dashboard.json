@@ -211,6 +211,14 @@
                     "Imprisonment Details"
                 ],
                 "translationKey": "DASHBOARD_TITLE_EDIT"
+            },
+            "patientAppointments": {
+                "type": "custom",
+                "displayOrder": 13,
+                "config": {
+                    "title": "DASHBOARD_TITLE_APPOINTMENTS_KEY",
+                    "template": "<patient-appointments-dashboard section='config' patient='patient'></patient-appointments-dashboard>"
+                }
             }
         }
     },

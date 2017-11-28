@@ -2,5 +2,12 @@
     "patientReport": {
         "name": "Patient Information",
         "type": "PatientReport"
+    },
+    "customReport": {
+    "name": "Missed Appointments",
+    "type": "MRSGeneric",
+    "config": {
+        "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/missedAppointments.sql"
     }
+}
 }
