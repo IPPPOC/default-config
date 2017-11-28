@@ -1,10 +1,10 @@
 SELECT
 	pi.identifier,
-     CONCAT(pname.given_name, ' ', pname.family_name)  AS Name,
+     CONCAT(pname.given_name, ' ', pname.family_name)  AS Patient Name,
      app_service.name                                                                                AS 'Appointment Service',
      app_service_type.name                                                                           AS 'Appointment Service Type',
-     DATE_FORMAT(start_date_time, "%d/%m/%Y")                                                        AS 'Appointment Start Date',
-     CONCAT(DATE_FORMAT(start_date_time, "%l:%i %p"), " - ", DATE_FORMAT(end_date_time, "%l:%i %p")) AS 'Appointment Slot',
+     DATE_FORMAT(start_date_time, "%d/%m/%Y")                                                        AS 'Date of Appointment',
+     CONCAT(DATE_FORMAT(start_date_time, "%l:%i %p"), " - ", DATE_FORMAT(end_date_time, "%l:%i %p")) AS 'Slot',
      CONCAT(pn.given_name, ' ', pn.family_name)                                                      AS 'Provider',
      pa.status                                                                                       AS 'Status',
      pa.comments																					 AS 'Notes'
@@ -19,6 +19,6 @@ FROM
    LEFT JOIN person_name pn ON pn.person_id = prov.person_id AND pn.voided IS FALSE
    LEFT JOIN appointment_service_type app_service_type
      ON app_service_type.appointment_service_type_id = pa.appointment_service_type_id
- WHERE  start_date_time < CURDATE() AND (app_service_type.voided IS FALSE OR app_service_type.voided IS NULL)
+ WHERE  start_date_time < CURDATE() AND (app_service_type.voided IS FALSE OR app_service_type.voided IS NULL) AND pa.status != "Completed"
  ORDER BY start_date_time DESC;
 
