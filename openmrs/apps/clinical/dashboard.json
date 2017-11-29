@@ -103,7 +103,7 @@
                 "hideEmptyDisplayControl": true
             },
             "Physiotherapyform": {
-                "translationKey": "Physiotherapy form",
+                "translationKey": "DASHBOARD_TITLE_PHYSIOTHERAPY_FORM_KEY",
                 "isObservation": true,
                 "displayOrder":5,
                 "dashboardConfig": {
