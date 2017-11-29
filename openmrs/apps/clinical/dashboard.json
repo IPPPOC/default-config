@@ -61,7 +61,7 @@
                 }
             },
             "imprisonmentDetails": {
-                "translationKey": "Imprisonment Details",
+                "translationKey": "DASHBOARD_TITLE_IMPRISONMENT_DETAILS_KEY",
                 "isObservation": true,
                 "displayOrder":4,
                 "dashboardConfig": {
@@ -82,7 +82,7 @@
                 "hideEmptyDisplayControl": true
             },
             "pastHistory": {
-                "translationKey": "Past History",
+                "translationKey": "DASHBOARD_TITLE_PAST_HISTORY_KEY",
                 "isObservation": true,
                 "displayOrder":5,
                 "dashboardConfig": {
@@ -134,7 +134,7 @@
                 "hideEmptyDisplayControl": true
             },
             "PandOAssessment": {
-                "translationKey": "P and O Assessment",
+                "translationKey": "DASHBOARD_TITLE_P_AND_O_ASSESSMENT_KEY",
                 "isObservation": true,
                 "displayOrder":5,
                 "dashboardConfig": {
@@ -159,7 +159,7 @@
                 "hideEmptyDisplayControl": true
             },
             "complaints": {
-                "translationKey": "Complaints",
+                "translationKey": "DASHBOARD_COMPLAINTS_KEY",
                 "isObservation": true,
                 "displayOrder":6,
                 "dashboardConfig": {
@@ -180,7 +180,7 @@
                 "hideEmptyDisplayControl": true
             },
             "examinations": {
-                "translationKey": "Examinations",
+                "translationKey": "DASHBOARD_TITLE_EXAMINATIONS_KEY",
                 "isObservation": true,
                 "displayOrder":7,
                 "dashboardConfig": {
@@ -210,7 +210,7 @@
                 "formGroup": [
                     "Imprisonment Details"
                 ],
-                "translationKey": "DASHBOARD_TITLE_EDIT"
+                "translationKey": "DASHBOARD_TITLE_EDIT_KEY"
             },
             "patientAppointments": {
                 "type": "custom",
@@ -232,7 +232,7 @@
         },
         "sections":{
             "referralform": {
-                "translationKey": "Referral Form",
+                "translationKey": "DASHBOARD_TITLE_REFERRAL_DISPLAY_CONTROL",
                 "isObservation": true,
                 "displayType":"Full-Page",
                 "displayOrder":0,
