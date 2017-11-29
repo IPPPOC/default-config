@@ -18,5 +18,20 @@
   "REGISTRATION_SMOKING_INJURIOUS_TEXT_KEY" : "Fumeurs , le tabac à chiquer peut causer le cancer , les maladies cardiaques et asthama .",
   "REGISTRATION_INSTITUTE_NAME_TEXT_KEY": "Jan Swasthya Sahyog",
   "REGISTRATION_INSTITUTE_REGISTERED_TEXT_KEY": "(Enregistré)",
-  "REGISTRATION_INSTITUTE_ADDRESS": "Ganiyari , District - Bilaspur"
+  "REGISTRATION_INSTITUTE_ADDRESS": "Ganiyari , District - Bilaspur",
+  "MODULE_LABEL_REGISTRATION_KEY": "Enregistrement",
+  "MODULE_LABEL_CLINICAL_KEY": "Clinique",
+  "MODULE_LABEL_INPATIENT_KEY": "InPatient",
+  "MODULE_LABEL_RADIOLOGY_UPLOAD_KEY": "Téléchargement de radiologie",
+  "MODULE_LABEL_PATIENT_DOCUMENTS_KEY": "Documents patients",
+  "MODULE_LABEL_ADMIN_KEY": "Admin",
+  "MODULE_LABEL_REPORTS_KEY": "Rapports",
+  "MODULE_LABEL_APOOINTMENTS_KEY": "Rendez-vous",
+  "MODULE_LABEL_ORDERS_KEY": "Ordres",
+  "MODULE_LABEL_PROGRAMS_KEY": "Programmes",
+  "MODULE_LABEL_IMPLEMENTER_INTERFACE_KEY": "Implementer Interface",
+  "MODULE_LABEL_ATOMFEED_CONSOLE_KEY": "AtomFeed Console",
+  "MODULE_LABEL_APPOINTMENT_SCHEDULING_KEY": "Planification des rendez-vous"
+
+
 }
