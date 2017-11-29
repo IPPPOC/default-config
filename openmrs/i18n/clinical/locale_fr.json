@@ -28,6 +28,9 @@
   "DASHBOARD_UPCOMING_APPOINTMENTS_KEY_LINK": "Vue de liste",
   "DASHBOARD_NO_UPCOMING_APPOINTMENTS_KEY": "Pas de rendez-vous à venir",
   "DASHBOARD_COMPLAINTS_KEY": "Plaintes",
-  "NO_DATA_MESSAGE" : "Pas de données",
-  "CLINICAL_PRINT_TRANSLATION_KEY" : "impression"
+  "NO_DATA_MESSAGE": "Pas de données",
+  "CLINICAL_PRINT_TRANSLATION_KEY": "impression",
+  "OBSERVATIONS_BOARD_LABEL_KEY": "Observations",
+  "DIAGNOSIS_BOARD_LABEL_KEY": "Diagnostic",
+  "ORDERS_BOARD_LABEL_KEY": "Ordres"
 }
