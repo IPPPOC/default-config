@@ -6,7 +6,7 @@
         "printing": {
             "title": "Patient Summary",
             "header": "PEARLii Program",
-            "logo": "../images/ICRC_logo_Red_Cross.png"
+            "logo": "/bahmni_config/openmrs/apps/images/ICRC_logo_Red_Cross.png"
         },
         "sections":{
             "patientInformation":{
@@ -228,7 +228,7 @@
         "printing": {
             "title": "Patient Referral Document",
             "header": "PEARLii Program",
-            "logo": "../images/ICRC_logo_Red_Cross.png"
+            "logo": "/bahmni_config/openmrs/apps/images/ICRC_logo_Red_Cross.png"
         },
         "sections":{
             "referralform": {
@@ -266,7 +266,7 @@
         "printing": {
             "title": "Progress Monitoring",
             "header": "PEARLii Program",
-            "logo": "../images/ICRC_logo_Red_Cross.png"
+            "logo": "/bahmni_config/openmrs/apps/images/ICRC_logo_Red_Cross.png"
         },
         "sections":{
             "progressMonitoring": {
@@ -285,15 +285,6 @@
                 },
                 "displayOrder":3
             }
-        }
-    },
-    "patientSummary": {
-        "translationKey": "DASHBOARD_TAB_PATIENT_SUMMARY_KEY",
-        "maxRecentlyViewedPatients": 10,
-        "printing": {
-            "title": "Patient Summary",
-            "header": "PEARLii Program",
-            "logo": "../images/ICRC_logo_Red_Cross.png"
         }
     }
 }

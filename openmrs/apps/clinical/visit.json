@@ -5,7 +5,7 @@
         "printing": {
             "title": "Patient Visit Information",
             "header": "PEARLii Program",
-            "logo": "../images/ICRC_logo_Red_Cross.png"
+            "logo": "/bahmni_config/openmrs/apps/images/ICRC_logo_Red_Cross.png"
         },
         "defaultSections": true,
         "sections": {
@@ -50,7 +50,7 @@
         "printing": {
             "title": "Patient Discharge Summary",
             "header": "PEARLii Program",
-            "logo": "../images/ICRC_logo_Red_Cross.png"
+            "logo": "/bahmni_config/openmrs/apps/images/ICRC_logo_Red_Cross.png"
         },
         "sections": {
             "PatientInformation":{
