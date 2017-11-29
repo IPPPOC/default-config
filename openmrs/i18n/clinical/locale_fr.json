@@ -9,6 +9,9 @@
     "DASHBOARD_TITLE_REFERRAL_TAB": "Onglet Referral",
     "DASHBOARD_TITLE_PROGRESS_MONITORING_TAB":"Suivi des progrès",
     "DASHBOARD_TITLE_DIAGNOSIS_KEY":"Diagnostic",
-    "DASHBOARD_TITLE_VISITS_KEY":"Visite"
+    "DASHBOARD_TITLE_VISITS_KEY":"Visite",
+    "OBSERVATIONS_BOARD_LABEL_KEY":"Observations",
+    "DIAGNOSIS_BOARD_LABEL_KEY":"Diagnostic",
+    "ORDERS_BOARD_LABEL_KEY":"Ordres"
 
 }
