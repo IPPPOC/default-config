@@ -31,9 +31,6 @@
   "MODULE_LABEL_PROGRAMS_KEY": "Programmes",
   "MODULE_LABEL_IMPLEMENTER_INTERFACE_KEY": "Implementer Interface",
   "MODULE_LABEL_ATOMFEED_CONSOLE_KEY": "AtomFeed Console",
-<<<<<<< HEAD
-  "MODULE_LABEL_APPOINTMENT_SCHEDULING_KEY": "Planification des rendez-vous"
-=======
   "MODULE_LABEL_APPOINTMENT_SCHEDULING_KEY": "Planification des rendez-vous",
   "MODULE_LABEL_ACTIVE_KEY":"actif",
   "MODULE_LABEL_ALL_KEY":"Tout",
@@ -41,7 +38,4 @@
   "MODULE_LABEL_MY_PATIENTS_KEY":"Mes patients",
   "MODULE_LABEL_OPD_1_KEY":"OPD 1",
   "MODULE_LABEL_ACTIVE_PATIENTS_BY_LOCATION":"Patient par lieu"
-
-
->>>>>>> e6014921734c0af45a2413d82dd0fa8e90dc849c
 }
