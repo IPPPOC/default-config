@@ -19,6 +19,8 @@
         LEFT JOIN person_name pn ON pn.person_id = prov.person_id AND pn.voided IS FALSE
         LEFT JOIN appointment_service_type app_service_type
           ON app_service_type.appointment_service_type_id = pa.appointment_service_type_id
-      WHERE   DATE(start_date_time) BETWEEN CAST('#startDate#' AS DATE) AND CAST('#endDate#' AS DATE)  AND (app_service_type.voided IS FALSE OR app_service_type.voided IS NULL) AND pa.status != "Completed"
+      WHERE   DATE(start_date_time) BETWEEN CAST('#startDate#' AS DATE) AND (CASE WHEN CAST('#endDate#' AS DATE) <= CAST(CURRENT_DATE AS DATE)
+      THEN CAST('#endDate#' AS DATE)
+      ELSE CAST(CURRENT_DATE AS DATE)
+END)  AND (app_service_type.voided IS FALSE OR app_service_type.voided IS NULL) AND pa.status != "Completed"
       ORDER BY start_date_time DESC
-
