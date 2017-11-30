@@ -200,6 +200,19 @@
                     "hideEmptyDisplayControl": true
                 }
             },
+            "prostheticOrders":{
+                "orderType":"Prosthetic Order",
+                "type":"ordersControl",
+                "translationKey":"DASHBOARD_TITLE_PROSTHETIC_ORDER_KEY",
+                "showDetailsButton":true,
+                "displayOrder":17,
+                "dashboardConfig":{
+                "numberOfVisits":4
+                },
+                "expandedViewConfig":{
+                "showDetailsButton":true
+                }
+            },
             "validationForms": {
                 "type": "forms",
                 "displayOrder": 8,
