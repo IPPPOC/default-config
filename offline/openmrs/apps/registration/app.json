@@ -26,11 +26,11 @@
         ],
         "order": 0
       },
-      "anonymisePatient": {
+      "anonymisePatientData": {
         "title": "Additional Patient Information",
-        "translationKey": "Anonymize Patient Record",
+        "translationKey": "Anonymise Patient Information",
         "attributes": [
-          "Consent for anonymization"
+          "AnonymisePatientData"
         ],
         "order": 0
       },
@@ -46,7 +46,9 @@
       },
       "hidden": {
         "attributes": [
-          "primaryContact"
+          "primaryContact",
+          "isAlreadyAnonymised",
+          "addressCode"
         ]
       },
       "defaults":  {
